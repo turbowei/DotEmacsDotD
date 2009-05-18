@@ -1,0 +1,33 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables (list 
+   (semanticdb-table "smart-tab.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("smart-tab-using-hippie-expand" variable nil nil [19 123]) ("smart-tab" function (:user-visible-flag t :arguments ("prefix")) nil [164 706]) ("smart-indent" function (:user-visible-flag t) nil [708 935]) ("smart-tab-must-expand" function (:arguments ("&optional" "prefix")) nil [937 1167]) ("smart-tab" package nil nil [1169 1189]))
+    :file "smart-tab.el"
+    :pointmax 1190
+    )
+    (semanticdb-table "ell.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("cl" include nil nil [3263 3276]) ("avltree" include nil nil [3332 3350]) ("xml" include nil nil [3412 3426]) ("ell-host" variable (:default-value "anc.ed.ac.uk") nil [3483 3515]) ("ell-path" variable (:default-value "~stephen/emacs/ell.xml") nil [3516 3558]) ("ell-proxy-host" variable (:user-visible-flag t) nil [3560 3642]) ("ell-proxy-port" variable (:user-visible-flag t) nil [3644 3721]) ("ell-locate" variable (:user-visible-flag t) nil [3723 3881]) ("ell-occur-if-new-found" variable (:user-visible-flag t :default-value t) nil [3883 3992]) ("ell-goto-addr" variable (:user-visible-flag t) nil [3994 4194]) ("ell-last-updated" variable nil nil [4196 4266]) ("ell-use-font-lock" variable (:user-visible-flag t :default-value t) nil [4268 4342]) ("ell-last-read-filename" variable (:default-value "~/.ell-last-read") nil [4344 4470]) ("if" code nil nil [4472 4515]) ("ell-read-from-file" function (:arguments ("filename")) nil [4517 4741]) ("ell-new-cache" function nil nil [4743 4974]) ("ell-read-cache-from-file" function (:arguments ("filename")) nil [4976 5264]) ("ell-write-to-file" function (:arguments ("object" "filename")) nil [5266 5461]) ("ell-write-cache-to-file" function (:arguments ("new-cache")) nil [5463 5638]) ("ell-ref1" variable nil nil [5684 5701]) ("ell-msg" variable nil nil [5702 5718]) ("ell-dstr" variable nil nil [5719 5736]) ("ell-font-lock-keywords" variable nil nil [5737 5768]) ("condition-case" code nil nil [5790 7007]) ("ell-packages-list" function (:arguments ("&optional" "byauthor")) nil [7011 8230]) ("ell-build-packages-list" function nil nil [8232 9074]) ("ell-sort-by-author" function (:arguments ("packagesL")) nil [9076 9447]) ("define-derived-mode" code nil nil [9449 9944]) ("ell-prepare-buffer" function nil nil [9946 10448]) ("ell-update-buffer" function (:arguments ("ell-last-updated" "new-count")) nil [10450 11058]) ("ell-packages" function (:user-visible-flag t :arguments ("byauthor")) nil [11075 13074]) ("ell-fix-for-xml-parser-bug" function nil nil [13077 13324]) ("ell" package nil nil [13327 13341]))
+    :file "ell.el"
+    :pointmax 13366
+    )
+   (semanticdb-table "ppindent.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("ppindent" package nil nil [2383 2402]) ("defgroup" code nil nil [2404 2479]) ("ppindent-increment" variable (:default-value 2) nil [2481 2659]) ("starts-withp" function (:arguments ("str" "prefix")) nil [2661 2788]) ("my-make-string" function (:arguments ("length" "init")) nil [2790 2974]) ("ppindent-aux" function (:arguments ("start")) nil [2976 4081]) ("ppindent-buffer" function (:arguments ("start")) nil [4083 4273]) ("ppindent-c" function (:user-visible-flag t) nil [4275 4376]) ("ppindent-h" function (:user-visible-flag t) nil [4378 4535]))
+    :file "ppindent.el"
+    :pointmax 4537
+    )
+   (semanticdb-table "tbemail.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("tbemail-mode-hook" variable nil nil [1281 1311]) ("setq" code nil nil [1313 1409]) ("tbemail-email-quote1" variable (:default-value (quote ((t (:foreground "#000080" :background "#d7d7d7"))))) nil [1411 1530]) ("tbemail-email-quote2" variable (:default-value (quote ((t (:foreground "#600000" :background "#cdcdcd"))))) nil [1532 1651]) ("tbemail-email-quote3" variable (:default-value (quote ((t (:foreground "#006000" :background "#c3c3c3"))))) nil [1653 1772]) ("tbemail-email-quote4" variable (:default-value (quote ((t (:foreground "#600080" :background "#b9b9b9"))))) nil [1774 1893]) ("tbemail-email-bold" variable (:default-value (quote ((t (:bold t))))) nil [1895 1972]) ("tbemail-email-italic" variable (:default-value (quote ((t (:italic t))))) nil [1974 2057]) ("tbemail-email-underline" variable (:default-value (quote ((t (:underline t))))) nil [2059 2152]) ("tbemail-font-lock-keywords" variable (:default-value (list (quote ("^> \\(.*\\)$" 1 (quote tbemail-email-quote1))) (quote ("^>> \\(.*\\)$" 1 (quote tbemail-email-quote2))) (quote ("^>>> \\(.*\\)$" 1 (quote tbemail-email-quote3))) (quote ("^>>>> \\(.*\\)$" 1 (quote tbemail-email-quote4))) (quote ("/\\(\\b\\w*\\b\\)/" 1 (quote tbemail-email-italic))) (quote ("\\*\\(\\b\\w*\\b\\)\\*" 1 (quote tbemail-email-bold))) (quote ("[_]\\(\\b\\w*\\b\\)[_]" 1 (quote tbemail-email-underline))))) nil [2154 2652]) ("tbemail-mode" function (:user-visible-flag t) nil [2654 2982]) ("tbemail" package nil nil [2984 3002]))
+    :file "tbemail.el"
+    :pointmax 3003
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

@@ -1,0 +1,21 @@
+;; Object kill-ring-search-1.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "kill-ring-search-1.1/"
+  :tables (list 
+   (semanticdb-table "kill-ring-search-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("kill-ring-search" function (:prototype-flag t :user-visible-flag t) nil [239 343]) ("kill-ring-search-autoloads" package nil nil [447 484]))
+    :file "kill-ring-search-autoloads.el"
+    :pointmax 648
+    )
+   (semanticdb-table "kill-ring-search.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("cl" include nil nil [1688 1701]) ("kill-ring-search-keymap" variable (:user-visible-flag t :default-value (let ((map (copy-keymap minibuffer-local-map))) (define-key map "" (quote kill-ring-search-prev)) (define-key map "\371" (quote kill-ring-search-prev)) (define-key map "" (quote exit-minibuffer)) (define-key map "" (quote kill-ring-scroll-up-page)) (define-key map "\366" (quote kill-ring-scroll-down-page)) (define-key map "" (quote kill-ring-scroll-up)) (define-key map "" (quote kill-ring-scroll-down)) map)) nil [1703 2213]) ("kill-ring-case-fold" variable (:user-visible-flag t) nil [2215 2302]) ("kill-ring-search-pos" variable nil nil [2304 2416]) ("kill-ring-search-string" variable nil nil [2418 2513]) ("kill-ring-search-calling-buffer" variable nil nil [2515 2628]) ("kill-ring-search-eoinput" variable nil nil [2630 2733]) ("make-variable-buffer-local" code nil nil [2734 2788]) ("kill-ring-scroll-pos" variable nil nil [2790 2823]) ("kill-ring-auto-scroll-pos" variable nil nil [2825 2863]) ("kill-ring-search-pre-command" function nil nil [2865 3032]) ("kill-ring-search-substring" function (:arguments ("search-string" "string")) nil [3034 3283]) ("get-next-match" function (:arguments ("search-list")) nil [3285 3614]) ("kill-ring-chop-newline" function (:arguments ("text")) nil [3616 3843]) ("kill-ring-search-create-highlighted-match" function (:arguments ("string" "search-string" "max-lines" "first-line")) nil [3845 5300]) ("kill-ring-search-post-command" function nil nil [5302 6183]) ("kill-ring-search-max-minibuffer-size" function nil nil [6185 6537]) ("kill-ring-search-minibuffer-setup" function nil nil [6539 6958]) ("kill-ring-search" function (:user-visible-flag t) nil [6975 7801]) ("kill-ring-scroll-up" function (:arguments ("&optional" "arg")) nil [7803 7974]) ("kill-ring-scroll-down" function (:arguments ("&optional" "arg")) nil [7976 8073]) ("kill-ring-scroll-up-page" function (:arguments ("&optional" "arg")) nil [8075 8215]) ("kill-ring-scroll-down-page" function (:arguments ("&optional" "arg")) nil [8217 8361]) ("kill-ring-search-prev" function (:user-visible-flag t) nil [8363 8687]) ("kill-ring-search" package nil nil [8689 8716]))
+    :file "kill-ring-search.el"
+    :pointmax 8752
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

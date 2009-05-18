@@ -1,0 +1,15 @@
+;; Object facebook-0.0.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "facebook-0.0.1/"
+  :tables (list 
+   (semanticdb-table "facebook-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("facebook-login" function (:prototype-flag t :user-visible-flag t) nil [248 317]) ("facebook-users-set-status" function (:prototype-flag t :user-visible-flag t) nil [319 414]) ("facebook-status" function (:prototype-flag t :user-visible-flag t) nil [416 501]) ("facebook-autoloads" package nil nil [590 619]))
+    :file "facebook-autoloads.el"
+    :pointmax 775
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

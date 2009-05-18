@@ -1,0 +1,46 @@
+;; Object lisppaste-1.5/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lisppaste-1.5/"
+  :tables (list 
+   (semanticdb-table "lisppaste-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("lisppaste-list-pastes" function (:prototype-flag t) nil [490 750]) ("lisppaste-paste-region" function (:prototype-flag t :user-visible-flag t) nil [752 871]) ("lisppaste-display-paste" function (:prototype-flag t :user-visible-flag t) nil [873 1020]) ("lisppaste-list-paste-annotations" function (:prototype-flag t :user-visible-flag t) nil [1022 1127]) ("lisppaste-list-recent-pastes" function (:prototype-flag t :user-visible-flag t) nil [1129 1395]) ("lisppaste-create-new-paste" function (:prototype-flag t :user-visible-flag t) nil [1397 1629]) ("lisppaste-create-new-annotation" function (:prototype-flag t :user-visible-flag t) nil [1631 1887]) ("lisppaste-dwim" function (:prototype-flag t :user-visible-flag t) nil [1889 1995]) ("lisppaste-annotate" function (:prototype-flag t :user-visible-flag t) nil [1997 2087]) ("lisppaste-display-supported-channels" function (:prototype-flag t :user-visible-flag t) nil [2089 2311]) ("lisppaste" function (:prototype-flag t :user-visible-flag t) nil [2313 2397]) ("lisppaste-autoloads" package nil nil [2486 2516]))
+    :file "lisppaste-autoloads.el"
+    :pointmax 2673
+    )
+   (semanticdb-table "lisppaste.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("cl" include nil nil [1059 1072]) ("xml-rpc" include nil nil [1073 1091]) ("lisppaste-url" variable (:constant-flag t :default-value "http://common-lisp.net:8185/RPC2") nil [1093 1152]) ("lisppaste-send-command" function (:arguments ("command" "&rest" "stuff")) nil [1154 1409]) ("lisppaste-display-new-paste-url" variable (:user-visible-flag t) nil [1411 1530]) ("lisppaste-new-paste" function (:arguments ("channel" "nick" "title" "content" "&optional" "annotate")) nil [1532 2196]) ("lisppaste-get-paste" function (:arguments ("paste" "&optional" "n")) nil [2198 2355]) ("lisppaste-list-annotations" function (:arguments ("paste")) nil [2357 2492]) ("lisppaste-list-pastes" function (:arguments ("n" "&optional" "start" "channel")) nil [2509 3020]) ("lisppaste-channels" function nil nil [3022 3145]) ("lisppaste-channels" variable nil nil [3147 3290]) ("lisppaste-check-channel" function (:arguments ("channel")) nil [3292 3698]) ("lisppaste-all-channels" function nil nil [3700 3910]) ("lisppaste-default-nick" variable (:user-visible-flag t) nil [3912 4030]) ("lisppaste-default-nick" function (:arguments ("channel")) nil [4032 4428]) ("lisppaste-paste" function (:arguments ("p")) nil [4430 4493]) ("lisppaste-annotation" function (:arguments ("p")) nil [4494 4567]) ("lisppaste-channel" function (:arguments ("p")) nil [4568 4635]) ("lisppaste-annotations" function (:arguments ("p")) nil [4636 4711]) ("lisppaste-read-number" function (:arguments ("prompt" "&optional" "annotation")) nil [4713 5385]) ("lisppaste-read-channel" function nil nil [5387 5505]) ("lisppaste-read-nick" function (:arguments ("c")) nil [5507 5689]) ("lisppaste-read-title" function nil nil [5691 5775]) ("lisppaste-clean-returned-paste" function (:arguments ("paste")) nil [5777 6259]) ("lisppaste-clean-time-string" function (:arguments ("time")) nil [6261 6629]) ("lisppaste-creation-help" variable (:default-value (concat ";; Enter your paste below, and press C-c C-c to send.
+" ";; Press C-c C-d to cancel this paste.
+
+")) nil [6631 6817]) ("lisppaste-buffer-substring" function (:arguments ("beg" "end")) nil [6821 7344]) ("lisppaste-paste-region" function (:user-visible-flag t :arguments ("beg" "end")) nil [7361 7904]) ("lisppaste-browse-url" function (:arguments ("url" "&rest" "ignore")) nil [7907 8549]) ("lisppaste-display-paste" function (:user-visible-flag t :arguments ("paste" "&optional" "n")) nil [8566 10173]) ("lisppaste-list-paste-annotations" function (:user-visible-flag t :arguments ("paste")) nil [10190 11363]) ("lisppaste-list-recent-pastes" function (:user-visible-flag t :arguments ("n" "&optional" "start" "channel")) nil [11380 12962]) ("lisppaste-create-paste" function (:arguments ("callback-fn")) nil [12964 13537]) ("lisppaste-send-paste" function (:arguments ("callback-fn" "buffer")) nil [13539 13989]) ("lisppaste-create-new-paste" function (:user-visible-flag t :arguments ("&optional" "channel" "nick" "title")) nil [14006 14608]) ("lisppaste-create-new-annotation" function (:user-visible-flag t :arguments ("&optional" "channel" "nick" "title" "n")) nil [14625 15326]) ("lisppaste-dwim" function (:user-visible-flag t) nil [15343 15771]) ("lisppaste-quit" function (:user-visible-flag t) nil [15773 15900]) ("lisppaste-annotate" function (:user-visible-flag t) nil [15917 16251]) ("lisppaste-display-supported-channels" function (:user-visible-flag t) nil [16268 16721]) ("lisppaste-help" variable (:default-value (concat "Commands:
+" "`a' -- lisppaste-annotate
+" "       Annotate the paste at point.  With prefix arg, prompt
+" "       for a paste number to annotate.
+" "`c' -- lisppaste-display-supported-channels
+" "       Display channels lisppaste is running on.
+" "`d' -- lisppaste-display-paste
+" "       Fetch a paste.  With prefix arg, fetch an annotation.
+" "`h' -- lisppaste-help
+" "       Show this help.
+" "`l a' -- lisppaste-list-paste-annotations
+" "         List a paste's annotations.
+" "`l p' -- lisppaste-list-recent-pastes
+" "         List recent pastes.  With prefix arg, prompt for
+" "         channel and start paste.
+" "`n' -- lisppaste-create-new-paste
+" "       Create a new paste.
+" "RET -- lisppaste-dwim
+" "       Fetch either the paste or the annotation at point.
+" "SPC -- scroll-up
+" "`q' -- lisppaste-quit
+" "       Quit the paste display.
+")) nil [16723 17697]) ("lisppaste-help" function (:user-visible-flag t) nil [17699 17858]) ("lisppaste" function (:user-visible-flag t) nil [17875 18145]) ("lisppaste-mode-map" variable (:default-value (let ((map (make-sparse-keymap))) (define-key map "a" (function lisppaste-annotate)) (define-key map "c" (function lisppaste-display-supported-channels)) (define-key map "d" (function lisppaste-display-paste)) (define-key map "h" (function lisppaste-help)) (define-key map (kbd "l a") (function lisppaste-list-paste-annotations)) (define-key map (kbd "l p") (function lisppaste-list-recent-pastes)) (define-key map "n" (function lisppaste-create-new-paste)) (define-key map (kbd "RET") (function lisppaste-dwim)) (define-key map (kbd "SPC") (function scroll-up)) (define-key map "q" (function lisppaste-quit)) map)) nil [18147 18778]) ("define-derived-mode" code nil nil [18780 18978]) ("lisppaste" package nil nil [18980 19000]))
+    :file "lisppaste.el"
+    :pointmax 19029
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

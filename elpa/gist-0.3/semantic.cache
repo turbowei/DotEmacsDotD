@@ -1,0 +1,15 @@
+;; Object gist-0.3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "gist-0.3/"
+  :tables (list 
+   (semanticdb-table "gist-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("gist-region" function (:prototype-flag t :user-visible-flag t) nil [310 526]) ("gist-region-private" function (:prototype-flag t :user-visible-flag t) nil [528 694]) ("gist-buffer" function (:prototype-flag t :user-visible-flag t) nil [696 903]) ("gist-buffer-private" function (:prototype-flag t :user-visible-flag t) nil [905 1062]) ("gist-region-or-buffer" function (:prototype-flag t :user-visible-flag t) nil [1064 1330]) ("gist-region-or-buffer-private" function (:prototype-flag t :user-visible-flag t) nil [1332 1548]) ("gist-fetch" function (:prototype-flag t :user-visible-flag t) nil [1550 1702]) ("gist-autoloads" package nil nil [1787 1812]))
+    :file "gist-autoloads.el"
+    :pointmax 1964
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

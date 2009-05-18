@@ -1,0 +1,15 @@
+;; Object http-post-simple-1.0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "http-post-simple-1.0/"
+  :tables (list 
+   (semanticdb-table "http-post-simple-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("http-post-simple" function (:prototype-flag t) nil [267 594]) ("http-post-simple-multipart" function (:prototype-flag t) nil [596 936]) ("http-post-simple-autoloads" package nil nil [1041 1078]))
+    :file "http-post-simple-autoloads.el"
+    :pointmax 1242
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

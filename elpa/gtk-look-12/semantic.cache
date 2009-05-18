@@ -1,0 +1,15 @@
+;; Object gtk-look-12/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "gtk-look-12/"
+  :tables (list 
+   (semanticdb-table "gtk-look-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("let" code nil nil [220 360]) ("gtk-lookup-symbol" function (:prototype-flag t :user-visible-flag t) nil [362 2766]) ("gtk-look-autoloads" package nil nil [2855 2884]))
+    :file "gtk-look-autoloads.el"
+    :pointmax 3040
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

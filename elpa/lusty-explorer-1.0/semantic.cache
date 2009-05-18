@@ -1,0 +1,21 @@
+;; Object lusty-explorer-1.0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lusty-explorer-1.0/"
+  :tables (list 
+   (semanticdb-table "lusty-explorer-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("lusty-file-explorer" function (:prototype-flag t :user-visible-flag t) nil [256 370]) ("lusty-buffer-explorer" function (:prototype-flag t :user-visible-flag t) nil [372 480]) ("lusty-explorer-autoloads" package nil nil [574 609]))
+    :file "lusty-explorer-autoloads.el"
+    :pointmax 771
+    )
+   (semanticdb-table "lusty-explorer.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("font-lock" include nil nil [1292 1312]) ("advice" include nil nil [1313 1330]) ("iswitchb" include nil nil [1331 1350]) ("cl" include nil nil [1370 1383]) ("lusty-match-face" variable (:default-value font-lock-function-name-face) nil [1386 1440]) ("lusty-directory-face" variable (:default-value font-lock-type-face) nil [1441 1490]) ("lusty-slash-face" variable (:default-value font-lock-keyword-face) nil [1491 1539]) ("lusty-file-face" variable (:default-value font-lock-string-face) nil [1540 1586]) ("lusty-completions-buffer" variable (:default-value " *Lusty-Completions*") nil [1588 1644]) ("lusty-completion-separator" variable (:default-value "    ") nil [1645 1687]) ("lusty-no-entries-string" variable (:default-value (propertize "-- NO ENTRIES --" (quote face) (quote font-lock-warning-face))) nil [1688 1784]) ("lusty-truncated-string" variable (:default-value (propertize "-- TRUNCATED --" (quote face) (quote font-lock-comment-face))) nil [1785 1879]) ("lusty--active-mode" variable nil nil [1881 1912]) ("lusty--previous-contents" variable nil nil [1913 1950]) ("lusty--initial-window-config" variable nil nil [1951 1992]) ("lusty-file-explorer" function (:user-visible-flag t) nil [2009 2301]) ("lusty-buffer-explorer" function (:user-visible-flag t) nil [2318 2554]) ("lusty-normalize-dir" function (:arguments ("dir")) nil [2745 3040]) ("lusty-complete-env-variable" function (:arguments ("path")) nil [3042 4017]) ("lusty-filter-buffers" function (:arguments ("buffers")) nil [4019 4263]) ("lusty-filter-files" function (:arguments ("file-portion" "files")) nil [4265 4987]) ("lusty-set-minibuffer-text" function (:arguments ("&rest" "args")) nil [4989 5189]) ("minibuffer-complete" function (:arguments ("around" "lusty-completion-wrapper" "activate")) nil [5191 5453]) ("lusty-file-explorer-minibuffer-tab-complete" function nil nil [5455 6859]) ("lusty-buffer-explorer-minibuffer-tab-complete" function nil nil [6861 7484]) ("lusty--post-command-function" function nil nil [7712 8680]) ("lusty-update-completion-buffer" function (:arguments ("&optional" "tab-pressed-p")) nil [8682 10234]) ("lusty-buffer-explorer-completions" function nil nil [10236 10878]) ("lusty-file-explorer-completions" function nil nil [10880 11966]) ("lusty-propertize-path" function (:arguments ("path")) nil [11968 12574]) ("lusty-longest-length" function (:arguments ("lst")) nil [12576 12668]) ("lusty-display-completion-list" function (:arguments ("entries" "match")) nil [12670 14502]) ("lusty-print-no-entries" function nil nil [14506 14631]) ("lusty-print-truncated" function nil nil [14633 14756]) ("lusty-print-columns" function (:arguments ("columns" "widths")) nil [14758 15574]) ("lusty-column-count-upperbound" function (:arguments ("strings")) nil [15631 16097]) ("lusty-columnize" function (:arguments ("entries" "column-count")) nil [16152 16654]) ("lusty--run" function (:arguments ("read-fn")) nil [16656 16980]) ("lusty-explorer" package nil nil [16982 17007]))
+    :file "lusty-explorer.el"
+    :pointmax 17042
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

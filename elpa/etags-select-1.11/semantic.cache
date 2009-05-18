@@ -1,0 +1,15 @@
+;; Object etags-select-1.11/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "etags-select-1.11/"
+  :tables (list 
+   (semanticdb-table "etags-select-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("let" code nil nil [354 516]) ("etags-select-no-select-for-one-match" variable (:user-visible-flag t :default-value t) nil [518 649]) ("custom-autoload" code nil nil [651 723]) ("etags-select-mode-hook" variable (:user-visible-flag t) nil [725 827]) ("custom-autoload" code nil nil [829 887]) ("etags-select-find-tag-at-point" function (:prototype-flag t :user-visible-flag t) nil [889 1125]) ("etags-select-find-tag" function (:prototype-flag t :user-visible-flag t) nil [1127 1345]) ("etags-select-autoloads" package nil nil [1437 1470]))
+    :file "etags-select-autoloads.el"
+    :pointmax 1630
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

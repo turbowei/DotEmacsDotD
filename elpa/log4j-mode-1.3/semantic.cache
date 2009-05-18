@@ -1,0 +1,15 @@
+;; Object log4j-mode-1.3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "log4j-mode-1.3/"
+  :tables (list 
+   (semanticdb-table "log4j-mode-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("add-to-list" code nil nil [209 267]) ("log4j-mode" function (:prototype-flag t :user-visible-flag t) nil [269 1520]) ("log4j-mode-autoloads" package nil nil [1610 1641]))
+    :file "log4j-mode-autoloads.el"
+    :pointmax 1799
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

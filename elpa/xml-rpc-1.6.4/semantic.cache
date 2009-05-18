@@ -1,0 +1,15 @@
+;; Object xml-rpc-1.6.4/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "xml-rpc-1.6.4/"
+  :tables (list 
+   (semanticdb-table "xml-rpc-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("xml-rpc-autoloads" package nil nil [178 206]))
+    :file "xml-rpc-autoloads.el"
+    :pointmax 361
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

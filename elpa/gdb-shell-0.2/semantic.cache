@@ -1,0 +1,15 @@
+;; Object gdb-shell-0.2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "gdb-shell-0.2/"
+  :tables (list 
+   (semanticdb-table "gdb-shell-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("gdb-shell-minor-mode" function (:prototype-flag t :user-visible-flag t) nil [216 337]) ("gdb-shell-autoloads" package nil nil [427 457]))
+    :file "gdb-shell-autoloads.el"
+    :pointmax 614
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

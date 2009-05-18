@@ -1,0 +1,15 @@
+;; Object magit-0.7/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "magit-0.7/"
+  :tables (list 
+   (semanticdb-table "magit-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("magit-status" function (:prototype-flag t :user-visible-flag t) nil [183 251]) ("magit-autoloads" package nil nil [336 362]))
+    :file "magit-autoloads.el"
+    :pointmax 515
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

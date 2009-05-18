@@ -1,0 +1,15 @@
+;; Object json-1.2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "json-1.2/"
+  :tables (list 
+   (semanticdb-table "json-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("json-autoloads" package nil nil [169 194]))
+    :file "json-autoloads.el"
+    :pointmax 346
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

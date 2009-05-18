@@ -1,0 +1,15 @@
+;; Object nav-35/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "nav-35/"
+  :tables (list 
+   (semanticdb-table "nav-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("nav" function (:prototype-flag t :user-visible-flag t) nil [166 254]) ("nav-autoloads" package nil nil [337 361]))
+    :file "nav-autoloads.el"
+    :pointmax 512
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

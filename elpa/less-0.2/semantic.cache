@@ -1,0 +1,15 @@
+;; Object less-0.2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "less-0.2/"
+  :tables (list 
+   (semanticdb-table "less-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("less-minor-mode" function (:prototype-flag t :user-visible-flag t) nil [251 442]) ("auto-less-minor-mode" function (:prototype-flag t) nil [444 601]) ("less-minor-mode-on" function (:prototype-flag t) nil [603 686]) ("less-minor-mode-off" function (:prototype-flag t) nil [688 773]) ("less-autoloads" package nil nil [858 883]))
+    :file "less-autoloads.el"
+    :pointmax 1035
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

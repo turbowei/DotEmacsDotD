@@ -1,0 +1,22 @@
+;; Object highlight-parentheses-1.0.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "highlight-parentheses-1.0.1/"
+  :tables (list 
+   (semanticdb-table "highlight-parentheses-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("highlight-parentheses-mode" function (:prototype-flag t :user-visible-flag t) nil [270 416]) ("highlight-parentheses-autoloads" package nil nil [526 568]))
+    :file "highlight-parentheses-autoloads.el"
+    :pointmax 737
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "highlight-parentheses.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("cl" include nil nil [1445 1458]) ("defgroup" code nil nil [1461 1570]) ("hl-paren-set" function (:arguments ("variable" "value")) nil [1572 1702]) ("hl-paren-colors" variable (:user-visible-flag t :default-value (quote ("firebrick1" "IndianRed1" "IndianRed3" "IndianRed4"))) nil [1704 1986]) ("hl-paren-background-colors" variable (:user-visible-flag t) nil [1988 2239]) ("hl-paren-face" variable (:user-visible-flag t) nil [2241 2436]) ("hl-paren-overlays" variable nil nil [2520 2594]) ("make-variable-buffer-local" code nil nil [2595 2642]) ("hl-paren-last-point" variable nil nil [2644 2799]) ("make-variable-buffer-local" code nil nil [2800 2849]) ("hl-paren-highlight" function nil nil [2851 3542]) ("define-minor-mode" code nil nil [3559 4018]) ("hl-paren-create-overlays" function nil nil [4102 4738]) ("hl-paren-color-update" function nil nil [4740 5079]) ("highlight-parentheses" package nil nil [5081 5113]))
+    :file "highlight-parentheses.el"
+    :pointmax 5154
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

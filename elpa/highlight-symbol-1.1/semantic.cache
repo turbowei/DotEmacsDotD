@@ -1,0 +1,15 @@
+;; Object highlight-symbol-1.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "highlight-symbol-1.1/"
+  :tables (list 
+   (semanticdb-table "highlight-symbol-autoloads.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("highlight-symbol-mode" function (:prototype-flag t :user-visible-flag t) nil [452 670]) ("highlight-symbol-at-point" function (:prototype-flag t :user-visible-flag t) nil [672 897]) ("highlight-symbol-remove-all" function (:prototype-flag t :user-visible-flag t) nil [899 1012]) ("highlight-symbol-next" function (:prototype-flag t :user-visible-flag t) nil [1014 1153]) ("highlight-symbol-prev" function (:prototype-flag t :user-visible-flag t) nil [1155 1298]) ("highlight-symbol-next-in-defun" function (:prototype-flag t :user-visible-flag t) nil [1300 1445]) ("highlight-symbol-prev-in-defun" function (:prototype-flag t :user-visible-flag t) nil [1447 1596]) ("highlight-symbol-query-replace" function (:prototype-flag t :user-visible-flag t) nil [1598 1718]) ("highlight-symbol-autoloads" package nil nil [1823 1860]))
+    :file "highlight-symbol-autoloads.el"
+    :pointmax 2024
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
