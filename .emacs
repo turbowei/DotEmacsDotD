@@ -1,4 +1,5 @@
-;;; .emacs --- Wei's dot emacs
+;;; .emacs
+
 (load "~/.emacs.d/dired+.el")
 (toggle-dired-find-file-reuse-dir 1)
 
@@ -143,7 +144,6 @@
  '(ecb-layout-window-sizes (quote (("left3" (0.26180257510729615 . 0.26785714285714285) (0.26180257510729615 . 0.3392857142857143) (0.26180257510729615 . 0.375)) ("left10" (0.32857142857142857 . 0.717391304347826) (0.14285714285714285 . 0.2608695652173913) (0.18571428571428572 . 0.2608695652173913)))))
  '(ecb-options-version "2.33")
  '(ecb-select-edit-window-on-redraw nil)
- '(ecb-source-path (quote ("/home/wweng/FDDS/")))
  '(erc-autojoin-channels-alist (quote (("irc.freenode.net" "#emacs") ("irc.gamesurge.net" "#elitistjerks"))))
  '(erc-autojoin-mode t)
  '(erc-away-nickname "hubar_AWAY")
@@ -155,7 +155,6 @@
  '(erc-nick (quote ("hubar")))
  '(erc-nick-uniquifier "_")
  '(erc-nickserv-identify-mode (quote autodetect))
- '(erc-nickserv-passwords (quote ((gamesurge (("hubar" . "tenchi"))))))
  '(erc-prompt-for-password nil)
  '(erc-server "irc.freenode.net")
  '(erc-services-mode t)
@@ -164,7 +163,6 @@
  '(erc-track-faces-priority-list (quote (erc-current-nick-face erc-keyword-face)))
  '(erc-track-priority-faces-only (quote all))
  '(erc-track-use-faces t)
- '(erc-user-full-name "Wei Weng")
  '(eshell-term-name "xterm")
  '(font-lock-mode t t (font-lock))
  '(global-semantic-decoration-mode t nil (semantic-decorate-mode))
@@ -179,12 +177,6 @@
  '(global-semantic-stickyfunc-mode t nil (semantic-util-modes))
  '(global-senator-minor-mode t nil (senator))
  '(make-backup-files t)
- '(mew-mail-domain "kencast.com")
- '(mew-pop-server "mail.kencast.com")
- '(mew-pop-user "wweng@kencast.com")
- '(mew-smtp-helo-domain "kencast.com")
- '(mew-smtp-server "mail.optonline.net")
- '(mew-use-cached-passwd t)
  '(semanticdb-global-mode t nil (semanticdb))
  '(show-paren-mode t)
  '(size-indication-mode t)
@@ -513,17 +505,6 @@
 
 
 (require 'icicles)
-
-;; Xrefactory configuration part ;;
-;; some Xrefactory defaults can be set here
-;; (defvar xref-current-project nil) ;; can be also "my_project_name"
-;; (defvar xref-key-binding 'none) ;; can be also 'local or 'none
-;; (setq load-path (cons "/home/wweng/.emacs.d/xrefs/" load-path))
-;; (setq exec-path (cons "/home/wweng/.emacs.d/xrefs/" exec-path))
-;; (load "xrefactory")
-;; ;; end of Xrefactory configuration part ;;
-;; (message "xrefactory loaded")
-
 
 ;;; Stefan Monnier <foo at acm.org>. It is the opposite of fill-paragraph
 ;;; Takes a multi-line paragraph and makes it into a single line of text.
